@@ -1,10 +1,10 @@
 // Select the form using querySelector
-const form="Your code instead of this string";
+const form = document.querySelector("form");
 
 // TODO: Attach a "submit" event listener to the form
 //Start of listener
   // TODO: Prevent the form from refreshing the page
-  
+  form.addEventListener = ("submit"   , function)
   /* 1. Show parent/children Data for learning/debugging */
   
   // TODO: Log the form's children collection in the console
