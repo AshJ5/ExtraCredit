@@ -2,15 +2,21 @@
 const form = document.querySelector("form");
 
 // TODO: Attach a "submit" event listener to the form
+form.addEventListener('submit', function(event) {
+event.preventDefault();
+});
+
 //Start of listener
   // TODO: Prevent the form from refreshing the page
-  form.addEventListener = ("submit"   , function)
+
   /* 1. Show parent/children Data for learning/debugging */
   
   // TODO: Log the form's children collection in the console
   // TODO: Log the form's parent element tag name
   // TODO: Log how many children the form has
-
+  console.log('Form children:', form.children);
+  console.log('Form parent tag name:', form.parentElement.tagName);
+  console.log('Number of form children:', form.children.length);
   /* 2. Extract values */
   // TODO: Select the name input
   const nameInput = "Your code instead of this string";
